@@ -1,0 +1,18 @@
+# Obsidian system folder
+.obsidian/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.bak
+*.tmp
+~$*
+
+# Exported PDFs (optional)
+*.pdf
+
+# Caches or logs (if any plugin uses them)
+.cache/
+*.log
