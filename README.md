@@ -115,4 +115,4 @@ Tools used: JetBrains Rider, Obsidian, GitHub, PostgreSQL
 ## License and Usage
 
 This project and all related materials are protected.  
-See [LICENSE.md](LICENSE.md) for full restrictions.
+See [LICENSE](LICENSE.md) for full restrictions.
