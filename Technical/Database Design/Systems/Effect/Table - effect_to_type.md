@@ -6,15 +6,15 @@ The `effect_to_type` table defines a link between an effect and one or more effe
 
 ## Fields
 
-| Field Name                                 | Data Type | Required | Description                           |
-| ------------------------------------------ | --------- | -------- | ------------------------------------- |
-| `id`                                       | UUID (PK) | Yes      | Primary key of the linkage            |
-| [`effect_id`](Table%20-%20effects.md)      | UUID (FK) | Yes      | Reference to the linked effect        |
-| [`type_id`](Table%20-%20effect_to_type.md) | UUID (FK) | Yes      | Reference to the assigned effect type |
-| `created_at`                               | TIMESTAMP | Yes      | Timestamp of creation                 |
-| `created_by`                               | UUID (FK) | Yes      | User who created the linkage          |
-| `updated_at`                               | TIMESTAMP | Yes      | Timestamp of last update              |
-| `updated_by`                               | UUID (FK) | Yes      | User who last updated the linkage     |
+| Field Name                               | Data Type | Required | Description                           |
+| ---------------------------------------- | --------- | -------- | ------------------------------------- |
+| `id`                                     | UUID (PK) | Yes      | Primary key of the linkage            |
+| [`effect_id`](Table%20-%20effects.md)    | UUID (FK) | Yes      | Reference to the linked effect        |
+| [`type_id`](Table%20-%20effect_types.md) | UUID (FK) | Yes      | Reference to the assigned effect type |
+| `created_at`                             | TIMESTAMP | Yes      | Timestamp of creation                 |
+| `created_by`                             | UUID (FK) | Yes      | User who created the linkage          |
+| `updated_at`                             | TIMESTAMP | Yes      | Timestamp of last update              |
+| `updated_by`                             | UUID (FK) | Yes      | User who last updated the linkage     |
 
 ---
 
