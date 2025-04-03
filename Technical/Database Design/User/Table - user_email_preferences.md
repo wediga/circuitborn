@@ -6,17 +6,17 @@ The `user_email_preferences` table stores a user's individual consents for optio
 
 ## Fields
 
-| Field Name                     | Data Type | Required | Description                                                                     |
-| ------------------------------ | --------- | -------- | ------------------------------------------------------------------------------- |
-| `id`                           | UUID (PK) | Yes      | Primary key of the consent assignment                                           |
-| [`user_id`](Table%20-%20users) | UUID (FK) | Yes      | Reference to the user to whom these settings belong                             |
-| `event_updates`                | BOOLEAN   | Yes      | Consent to notifications about in-game events, tournaments, or seasonal content |
-| `product_news`                 | BOOLEAN   | Yes      | Consent to receive product information, updates, and new features               |
-| `survey_invites`               | BOOLEAN   | Yes      | Consent to participate in surveys and feedback requests                         |
-| `created_at`                   | TIMESTAMP | Yes      | Timestamp of creation of the preferences                                        |
-| `created_by`                   | UUID (FK) | Yes      | User who set the preferences (usually the user themselves)                      |
-| `updated_at`                   | TIMESTAMP | Yes      | Timestamp of last modification                                                  |
-| `updated_by`                   | UUID (FK) | Yes      | User who last modified the preferences                                          |
+| Field Name                        | Data Type | Required | Description                                                                     |
+| --------------------------------- | --------- | -------- | ------------------------------------------------------------------------------- |
+| `id`                              | UUID (PK) | Yes      | Primary key of the consent assignment                                           |
+| [`user_id`](Table%20-%20users.md) | UUID (FK) | Yes      | Reference to the user to whom these settings belong                             |
+| `event_updates`                   | BOOLEAN   | Yes      | Consent to notifications about in-game events, tournaments, or seasonal content |
+| `product_news`                    | BOOLEAN   | Yes      | Consent to receive product information, updates, and new features               |
+| `survey_invites`                  | BOOLEAN   | Yes      | Consent to participate in surveys and feedback requests                         |
+| `created_at`                      | TIMESTAMP | Yes      | Timestamp of creation of the preferences                                        |
+| `created_by`                      | UUID (FK) | Yes      | User who set the preferences (usually the user themselves)                      |
+| `updated_at`                      | TIMESTAMP | Yes      | Timestamp of last modification                                                  |
+| `updated_by`                      | UUID (FK) | Yes      | User who last modified the preferences                                          |
 
 ---
 

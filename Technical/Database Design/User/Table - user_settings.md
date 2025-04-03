@@ -6,17 +6,17 @@ The `user_settings` table stores user-specific settings related to gameplay beha
 
 ## Fields
 
-| Field Name                     | Data Type | Required | Description                                           |
-| ------------------------------ | --------- | -------- | ----------------------------------------------------- |
-| `id`                           | UUID (PK) | Yes      | Primary key of the user settings                      |
-| [`user_id`](Table%20-%20users) | UUID (FK) | Yes      | Reference to the user to whom these settings belong   |
-| `language`                     | TEXT      | Yes      | Language of the user interface, e.g., `en`, `de`      |
-| `notifications`                | BOOLEAN   | Yes      | General in-app notifications (pop-ups, alerts, hints) |
-| `tutorial_completed`           | BOOLEAN   | Yes      | Indicates whether the tutorial has been completed     |
-| `created_at`                   | TIMESTAMP | Yes      | Timestamp of record creation                          |
-| `created_by`                   | UUID (FK) | Yes      | User who created the entry                            |
-| `updated_at`                   | TIMESTAMP | Yes      | Timestamp of the last modification                    |
-| `updated_by`                   | UUID (FK) | Yes      | User who last modified the entry                      |
+| Field Name                        | Data Type | Required | Description                                           |
+| --------------------------------- | --------- | -------- | ----------------------------------------------------- |
+| `id`                              | UUID (PK) | Yes      | Primary key of the user settings                      |
+| [`user_id`](Table%20-%20users.md) | UUID (FK) | Yes      | Reference to the user to whom these settings belong   |
+| `language`                        | TEXT      | Yes      | Language of the user interface, e.g., `en`, `de`      |
+| `notifications`                   | BOOLEAN   | Yes      | General in-app notifications (pop-ups, alerts, hints) |
+| `tutorial_completed`              | BOOLEAN   | Yes      | Indicates whether the tutorial has been completed     |
+| `created_at`                      | TIMESTAMP | Yes      | Timestamp of record creation                          |
+| `created_by`                      | UUID (FK) | Yes      | User who created the entry                            |
+| `updated_at`                      | TIMESTAMP | Yes      | Timestamp of the last modification                    |
+| `updated_by`                      | UUID (FK) | Yes      | User who last modified the entry                      |
 
 ---
 

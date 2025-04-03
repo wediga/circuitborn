@@ -6,13 +6,13 @@ The `user_passwords` table stores only the secured password hash of a user. The 
 
 ## Fields
 
-| Field Name                     | Data Type | Required | Description                                                             |
-| ------------------------------ | --------- | -------- | ----------------------------------------------------------------------- |
-| `id`                           | UUID (PK) | Yes      | Primary key of the password assignment                                  |
-| [`user_id`](Table%20-%20users) | UUID (FK) | Yes      | Reference to the user this password hash belongs to                     |
-| `password_hash`                | TEXT      | Yes      | Password hash generated with Argon2id, including the embedded salt      |
-| `created_at`                   | TIMESTAMP | Yes      | Timestamp of hash creation                                              |
-| `created_by`                   | UUID (FK) | Yes      | User who set or reset the password (e.g., admin or the user themselves) |
+| Field Name                        | Data Type | Required | Description                                                             |
+| --------------------------------- | --------- | -------- | ----------------------------------------------------------------------- |
+| `id`                              | UUID (PK) | Yes      | Primary key of the password assignment                                  |
+| [`user_id`](Table%20-%20users.md) | UUID (FK) | Yes      | Reference to the user this password hash belongs to                     |
+| `password_hash`                   | TEXT      | Yes      | Password hash generated with Argon2id, including the embedded salt      |
+| `created_at`                      | TIMESTAMP | Yes      | Timestamp of hash creation                                              |
+| `created_by`                      | UUID (FK) | Yes      | User who set or reset the password (e.g., admin or the user themselves) |
 
 ---
 
