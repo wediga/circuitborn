@@ -16,3 +16,7 @@ Thumbs.db
 # Caches or logs (if any plugin uses them)
 .cache/
 *.log
+
+# interne Namenssicherung
+nuvira_claim.md
+nuvira_claim_en.md
