@@ -1,6 +1,6 @@
 # Circuitborn – The Synthetic Arena
 
-A strategic 2D autobattler built on modular systems and deterministic gameplay
+> *Circuitborn – The Synthetic Arena* is a tactical 2D autobattler focused on modular grids, strategic builds, and deterministic core mechanics — with chaos lurking beyond.
 
 ## Project Overview
 
@@ -13,14 +13,15 @@ Circuitborn is a 2D autobattler with roguelite structure, defined by complete de
 
 ## Design Philosophy
 
-- 100% deterministic: no RNG, no hidden triggers — every outcome is transparent.
-    
+- Determinism-first: all core systems are designed to be transparent and predictable.
+
+- Controlled randomness: RNG is introduced only at high Δ-Flux levels, offering strategic risk for high-reward builds — never affecting basic mechanics.
+
 - Modular systems: all mechanics emerge from combinations of discrete modules.
-    
+
 - Strategic depth: multiple viable builds, clear counters, emergent gameplay.
-    
+
 - Planned progression: success through clever positioning, synergy, and long-term build decisions.
-    
 
 ## Core Gameplay Systems
 
@@ -86,6 +87,17 @@ A central AI system is planned as the game's dynamic endgame opponent:
 
 The long-term goal is a visible, learnable AI that evolves through player interaction — but never breaks determinism.
 
+## Roadmap
+
+- Playable prototype with grid, UI, and pulse system
+    
+- Modular build system with upgrades and synergy logic
+    
+- First encounter types and event mechanics
+    
+- Future integration of the AI opponent and meta-driven design loops
+    
+
 ## Developer Role
 
 This is a solo project focused on:
@@ -99,18 +111,13 @@ This is a solo project focused on:
 - Full documentation and structured planning
     
 
-Tools used: JetBrains Rider, Obsidian, GitHub, PostgreSQL
+Tools used: JetBrains Rider and PyCharm, Obsidian, GitHub, PostgreSQL
 
-## Roadmap
 
-- Playable prototype with grid, UI, and pulse system
-    
-- Modular build system with upgrades and synergy logic
-    
-- First encounter types and event mechanics
-    
-- Future integration of the AI opponent and meta-driven design loops
-    
+## Devlog
+
+I occasionally document development thoughts and milestones in a lightweight DevLog format.  
+[Read the DevLog](./DevLogs/)
 
 ## License and Usage
 
