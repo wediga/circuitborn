@@ -17,7 +17,9 @@ Thumbs.db
 .cache/
 *.log
 
-# interne Namenssicherung
+# interne Dokumente
 nuvira_claim.md
 nuvira_claim_en.md
 Private
+Devlogs/Devlogs-Drafts/
+Devlogs/LinkedIn-Posts/
